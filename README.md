@@ -4,7 +4,7 @@ Trabalho de Conclusão de Curso — MBA em Data Science & Analytics
 USP/Esalq — 2026
 
 **Autor:** José Marcos da Silva
-**Orientador(a):** _Gabrielle Maria Romeiro Lombardi_
+**Orientador(a):** _[Gabrielle Maria Romeiro Lombardi]_
 
 ---
 
