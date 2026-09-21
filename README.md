@@ -21,6 +21,26 @@ abril de 2026, complementados pelo cadastro de operadoras (CADOP) e pelo Índice
 Reclamações (IGR). O recorte contemplou operadoras ativas, de médio porte e de modalidade
 médico-hospitalar.
 
+## Dados
+
+Nenhum arquivo de dados é versionado neste repositório. Todas as bases são públicas e
+permanentes no portal de dados abertos da ANS: <https://dadosabertos.ans.gov.br/FTP/PDA/>
+
+| Base | Endereço |
+|---|---|
+| Demandas NIP | <https://dadosabertos.ans.gov.br/FTP/PDA/demandas_dos_consumidores_nip/> |
+| Índice Geral de Reclamações | <https://dadosabertos.ans.gov.br/FTP/PDA/IGR/> |
+| Operadoras ativas (CADOP) | <https://dadosabertos.ans.gov.br/FTP/PDA/operadoras_de_plano_de_saude_ativas/> |
+| Malha municipal | via pacote `geobr`, gerada pelo notebook 01 |
+
+O dicionário de variáveis das demandas está em
+[dicionario-pda-013](https://dadosabertos.ans.gov.br/FTP/PDA/demandas_dos_consumidores_nip/dicionario-pda-013-demandas_consumidores_nip.ods).
+
+Os arquivos vêm em CSV com separador `;` e codificação UTF-8. Baixe os anos de 2021 a 2026
+para a NIP; o IGR e o CADOP são baixados na posição mais recente. Estruture as pastas assim
+e ajuste `RAIZ` (notebook 01) e `PASTA` (notebook 02) para apontar para a raiz escolhida:
+
+
 ## Desenho do estudo
 
 | | |
