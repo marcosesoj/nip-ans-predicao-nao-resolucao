@@ -161,10 +161,3 @@ feita em data posterior pode produzir números ligeiramente diferentes.
 
 Código distribuído sob a licença MIT — veja [LICENSE](LICENSE).
 Os dados da ANS seguem os termos de uso da própria agência.
-
-## Como citar
-
-> _[SOBRENOME, Nome]_. **Predição de não resolução de demandas NIP na saúde suplementar
-> brasileira**. Trabalho de Conclusão de Curso (MBA em Data Science & Analytics) —
-> USP/Esalq, Piracicaba, 2026. Disponível em:
-> <https://github.com/marcosesoj/nip-ans-predicao-nao-resolucao>.
