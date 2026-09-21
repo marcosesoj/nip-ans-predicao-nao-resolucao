@@ -1,4 +1,4 @@
-# Predição de não resolução de demandas NIP na saúde suplementar
+# Monitoramento da Performance das Operadoras de Saúde: Dashboard para Gestão de Demandas da ANS
 
 Trabalho de Conclusão de Curso — MBA em Data Science & Analytics
 USP/Esalq — 2026
