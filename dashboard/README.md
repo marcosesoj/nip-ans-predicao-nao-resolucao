@@ -8,7 +8,7 @@ seções abaixo._
 | | |
 |---|---|
 | Arquivo | `painel_nip.pbix` |
-| Versão do Power BI Desktop | _[preencher]_ |
+| Versão do Power BI Desktop | _Versão: 2.157.1354.0 64-bit (agosto de 2026) |
 | Fonte de dados | `df_final_com_previsoes_2026.csv`, gerado pelo notebook 02 |
 
 > **Atenção ao tamanho.** O GitHub rejeita arquivos acima de 100 MB e alerta acima de 50 MB.
