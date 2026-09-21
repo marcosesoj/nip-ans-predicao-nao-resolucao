@@ -1,0 +1,38 @@
+# Dados — públicos na fonte, grandes demais para o repositório
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+*.csv
+*.parquet
+!outputs/tabelas/*.csv
+
+# Saídas geradas
+outputs/figuras/*
+outputs/tabelas/*
+!outputs/figuras/.gitkeep
+!outputs/tabelas/.gitkeep
+
+# Power BI
+*.pbix.tmp
+~$*.pbix
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.Python
+*.egg-info/
+
+# Office temporários
+~$*.xlsx
+~$*.docx
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

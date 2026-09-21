@@ -1,0 +1,11 @@
+# Versões usadas no desenvolvimento (Google Colab, Python 3.11).
+# Para fixar exatamente o que você executou, rode no ambiente do projeto:
+#   pip freeze > requirements.txt
+pandas>=2.0
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.3
+statsmodels>=0.14
+matplotlib>=3.7
+openpyxl>=3.1
+geobr>=0.2
