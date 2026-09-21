@@ -1,13 +1,10 @@
 # Painel em Power BI
 
-_Esta pasta ainda não contém o arquivo do painel. Adicione aqui o `.pbix` e complete as
-seções abaixo._
-
 ## Arquivo
 
 | | |
 |---|---|
-| Arquivo | `painel_nip.pbix` |
+| Arquivo | `Demandas Demandas ANS.pbix` |
 | Versão do Power BI Desktop | _Versão: 2.157.1354.0 64-bit (agosto de 2026) |
 | Fonte de dados | `df_final_com_previsoes_2026.csv`, gerado pelo notebook 02 |
 
