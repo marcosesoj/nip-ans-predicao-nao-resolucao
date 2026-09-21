@@ -3,7 +3,7 @@
 Trabalho de Conclusão de Curso — MBA em Data Science & Analytics
 USP/Esalq — 2026
 
-**Autor:** José Marcos da Silva_
+**Autor:** José Marcos da Silva<br>
 **Orientador(a):** Gabrielle Maria Romeiro Lombardi
 
 ---
@@ -109,8 +109,53 @@ pip install -r requirements.txt
 
 ## Fonte dos dados
 
-Todos os dados são públicos e provêm do portal de dados abertos da ANS:
-<https://dadosabertos.ans.gov.br>
+Nenhum arquivo de dados é versionado neste repositório. Todas as bases são públicas e
+permanentes no portal de dados abertos da ANS. Os arquivos brutos excedem o limite de
+100 MB por arquivo do GitHub e, estando disponíveis na fonte, não há ganho em duplicá-los
+aqui.
+
+## Onde baixar
+
+Portal: <https://dadosabertos.ans.gov.br/FTP/PDA/>
+
+| Base | Endereço | Pasta local esperada |
+|---|---|---|
+| Demandas NIP | <https://dadosabertos.ans.gov.br/FTP/PDA/demandas_dos_consumidores_nip/> | `raw/NIPS/` |
+| Índice Geral de Reclamações | <https://dadosabertos.ans.gov.br/FTP/PDA/IGR/> | `raw/BENEF. IGR/IGR.csv` |
+| Operadoras ativas (CADOP) | <https://dadosabertos.ans.gov.br/FTP/PDA/operadoras_de_plano_de_saude_ativas/> | `raw/CADOP/CADOP.csv` |
+| Malha municipal (IBGE) | via pacote `geobr` | gerada pelo notebook 01 |
+
+Os arquivos vêm em CSV com separador `;` e codificação UTF-8. Baixe os anos de **2021 a
+2026** para a NIP; o IGR e o CADOP são baixados na posição mais recente.
+
+## Estrutura esperada
+
+Os notebooks foram executados no Google Colab, apontando para uma pasta no Google Drive.
+Ao reproduzir, replique esta estrutura e ajuste a constante de caminho no início de cada
+notebook — `RAIZ` no notebook 01 e `PASTA` no notebook 02.
+
+```
+<raiz dos dados>/
+├── NIPS/                      arquivos anuais da NIP (CSV, separador ';')
+├── CADOP/CADOP.csv
+├── BENEF. IGR/IGR.csv
+├── 2026_BASE_COMPLETA/
+│   └── base_analitica_tcc.csv            gerado pelo notebook 01
+└── 2026_CLASSIFICACAO/
+    └── df_final_com_previsoes_2026.csv   gerado pelo notebook 02
+```
+
+## Recorte aplicado
+
+O notebook 01 filtra para operadoras **ativas**, de **médio porte** (carteira entre 50 mil
+e 100 mil beneficiários) e de modalidade **médico-hospitalar**, resultando em 183.796
+registros, dos quais 68.559 (37,3%) possuem avaliação registrada pelo beneficiário.
+
+## Observação sobre reprodutibilidade
+
+As bases da ANS são atualizadas mensalmente e podem sofrer revisões retroativas. Os
+resultados relatados referem-se à extração realizada em **abril de 2026**. Uma extração
+feita em data posterior pode produzir números ligeiramente diferentes.
 
 ## Licença
 
