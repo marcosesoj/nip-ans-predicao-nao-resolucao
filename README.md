@@ -3,8 +3,8 @@
 Trabalho de Conclusão de Curso — MBA em Data Science & Analytics
 USP/Esalq — 2026
 
-**Autor:** _[preencher]_
-**Orientador(a):** _[preencher]_
+**Autor:** José Marcos da Silva
+**Orientador(a):** Gabrielle Maria Romeiro Lombardi
 
 ---
 
@@ -63,7 +63,7 @@ capturam parcela limitada dos fatores associados à não resolução.
 .
 ├── notebooks/
 │   ├── 01_etl_eda.ipynb                     extração, limpeza, integração e análise exploratória
-│   ├── 02_modelagem_classificacao.ipynb     ajuste, avaliação e aplicação, com busca em grade (~2 h)
+│   ├── 02_modelagem_classificacao.ipynb     ajuste, avaliação e aplicação, com busca em grade
 │   └── 02b_modelagem_execucao_rapida.ipynb  idêntico, com os hiperparâmetros já fixados
 ├── data/
 │   ├── raw/                             bases originais da ANS (não versionadas)
@@ -74,10 +74,6 @@ capturam parcela limitada dos fatores associados à não resolução.
 ├── dashboard/                           painel em Power BI e sua documentação
 └── docs/                                documentação complementar
 ```
-
-Os diretórios `data/` e `outputs/` chegam vazios no repositório: os dados brutos excedem os
-limites do GitHub e são públicos na fonte original. Veja [`data/README.md`](data/README.md)
-para obtê-los.
 
 ## Reprodução
 
