@@ -8,10 +8,6 @@
 | Versão do Power BI Desktop | _Versão: 2.157.1354.0 64-bit (agosto de 2026) |
 | Fonte de dados | `df_final_com_previsoes_2026.csv`, gerado pelo notebook 02 |
 
-> **Atenção ao tamanho.** O GitHub rejeita arquivos acima de 100 MB e alerta acima de 50 MB.
-> Se o `.pbix` exceder esse limite, as opções são: remover os dados incorporados e apontar
-> o painel para o CSV, usar Git LFS, ou publicar o arquivo em um repositório de dados
-> (como o Zenodo, que ainda fornece um DOI citável) e linkar aqui.
 
 ## Como abrir
 
@@ -19,13 +15,6 @@
 2. Se as consultas apontarem para um caminho local, atualize a origem em
    **Transformar dados → Configurações da fonte de dados**.
 
-## Páginas do painel
-
-_[preencher: nome de cada página e o que ela responde]_
-
-## Medidas principais
-
-_[preencher: medidas DAX relevantes e sua definição]_
 
 ## Uso pretendido
 
